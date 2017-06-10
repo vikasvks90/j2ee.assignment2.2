@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		JavaScript Demo
+		</title>
+	</head>
+	<body>
+		<h1>Please see the console for output</h1>
+		<script>
+		var i = 1;
+
+		function counter(n){
+		console.log("Function Call: "+n);//it will print function call number
+		n++;
+		var x=1;
+			while (x < n){ 
+				console.log(x);//here we are printing the nubers starting from 1 based on the function call
+				x++;
+			}
+			return n;
+		}
+
+		i = counter(i);//First Call
+		i = counter(i);//Second Call
+		i = counter(i);//Third Call
+		</script>
+	</body>
+</html>

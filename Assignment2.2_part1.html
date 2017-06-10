@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		JavaScript Demo
+		</title>
+	</head>
+	<body>
+		<h1>Please see the console for output</h1>
+		<script>
+		function inner(){
+			return 'Hello World from Inner Function';
+		}
+
+		function outer(inner){
+			console.log(inner());
+		}
+
+		//call outer function with inner function as argument   
+		outer(inner);
+		</script>
+	</body>
+</html>
